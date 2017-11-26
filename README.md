@@ -44,6 +44,7 @@ Installing dependencies:
 sudo apt install gdb aeskeyfind rsakeyfind || echo 'have you heard about source compiling?'
 ```
 
+
 An interactive example for OpenSSL AES keys:
 ```bash
 openssl aes-128-ecb -nosalt -out testAES.enc
@@ -53,6 +54,7 @@ Enter a password twice, then some text and before terminating:
 CryKeX.sh openssl
 ```
 Finally, press Ctrl+D 3 times and [check](http://aes.online-domain-tools.com/) the result.
+
 
 OpenSSL RSA keys:
 ```bash
@@ -66,6 +68,7 @@ Verify:
 ```bash
 openssl rsa -noout -text -in testRSA.pem
 ```
+
 
 Let's extract keys from SSH:
 ```bash
