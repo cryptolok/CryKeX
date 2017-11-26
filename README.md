@@ -1,4 +1,4 @@
-$[](https://github.com/cryptolok/CryKeX/raw/master/logo.png)
+![](https://github.com/cryptolok/CryKeX/raw/master/logo.png)
 
 Properties:
 * Cross-platform
