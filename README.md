@@ -37,6 +37,8 @@ Firefox browser uses somehow similar memory management, thus seems not to be aff
 
 Same goes for PGP/GPG.
 
+Unfortunately, solutions like [Ansible](https://docs.ansible.com/ansible/latest/user_guide/vault.html) are affected.
+
 ## HowTo
 
 Installing dependencies:
