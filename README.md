@@ -23,6 +23,8 @@ Limitations:
 
 # How it works
 
+You may already heard or even used my [AES-REX](https://github.com/cryptolok/AES-REX) project that does pretty the same thing, but differently. Whereas AES-REX extracts cryptographic keys from registers, CryKeX will extract it from volatile memory (RAM).
+
 [Some](https://dfrws.org/sites/default/files/session-files/paper-the_persistence_of_memory_-_forensic_identification_and_extraction_of_cryptographic_keys.pdf) [work](https://www.scribd.com/doc/130070110/Extracting-Encryption-keys-from-RAM) has been already published regarding the subject of cryptograhic keys security within DRAM. Basically, we need to find something that looks like a key (entropic and specific length) and then confirm its nature by analyzing the memory structure around it (C data types).
 
 The idea is to dump live memory of a process and use those techniques in order to find probable keys since, memory mapping doesn't change. Thanks-fully, tools exist for that purpose.
