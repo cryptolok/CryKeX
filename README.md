@@ -41,6 +41,8 @@ Same goes for PGP/GPG.
 
 Unfortunately, solutions like [Ansible](https://docs.ansible.com/ansible/latest/user_guide/vault.html) are affected.
 
+You can read more details from [eForensics](https://eforensicsmag.com/download/open-source-forensic-tools/).
+
 ## HowTo
 
 Installing dependencies:
